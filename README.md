@@ -1,13 +1,13 @@
 # Bendulum Clock Shield
 
-Bendulum Clock Shield Copyright 2014 by D. L. Ehnebuske  
+Bendulum Clock PCB Copyright 2014 by D. L. Ehnebuske  
 License terms: [Creative Commons Attribution-ShareAlike 3.0 United States (CC BY-SA 3.0 US)]
 (http://creativecommons.org/licenses/by-sa/3.0/us/ "CC BY-SA 3.0 US")
 
-This is the more complex of two PCBs that implements the hardware interface between the Arduino Uno
-that drives a bendulum clock and the rest of the bendulum clock. It is more complex only in that it
-implements a battery backup. If the power fails, the clock keeps going! Also, it does not have the 
-traditional outline of an Arduino shield because it is meant to mount inside a bendulum clock
-built the way I built mine.
+This is drop-in replacement for the protoboard used in the initial implementation of my bendulum 
+clock. It functions as an Adruino shield implementing the hardware interface between the Arduino Uno
+that drives a bendulum clock and the rest of the bendulum clock. Its shape is not that of a 
+traditional Arduino shield.
 
-Note that this board is still being tested; it's not ready for release yet.
+Note that this board was only designed, not built. The BendulumClockShield implements same 
+functionality in a traditional Arduino shield and has been tested.
